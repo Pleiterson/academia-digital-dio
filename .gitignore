@@ -1,0 +1,68 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+-------------------------
+src/__mocks__
+
+# src/_assets/
+src/_assets/css
+# src/_assets/fonts
+src/_assets/icons
+# src/_assets/img
+src/_assets/js
+
+# src/_config
+
+src/_environments
+src/_environments/__tests__
+
+src/_translate
+src/_translate/languages/__tests__
+
+# src/components
+
+# src/constants
+# src/constants/__tests__
+
+# src/containers
+src/containers/__tests__
+
+# o nome da feature pode mudar conforme o avanço do projeto
+# src/pages
+src/pages/nomePages/__tests__
+# src/pages/nomeFeatures/components
+# src/pages/nomeFeatures/containers
+
+# src/server
+# src/server/config
+# src/server/models
+src/server/node_modules
+# src/server/routes
+# src/server/services
+
+# src/helpers
+# src/helpers/__tests__
+
+# src/utils
+# src/utils/__tests__
